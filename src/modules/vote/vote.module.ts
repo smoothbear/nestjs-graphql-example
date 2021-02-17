@@ -2,6 +2,7 @@ import { Module } from "@nestjs/common";
 import { VoteResolver } from "./vote.resolver";
 
 @Module({
-    imports: [VoteResolver],
+    imports: [],
+    providers: [VoteResolver]
 })
 export class VoteModule {}
