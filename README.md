@@ -47,5 +47,5 @@ $ npm run test:cov
 
 ![GraphQL Playground](./images/graphql_playground.png)
 
-To test GraphQL, Go to [http://your-server-ip:3000/graphql](http://your-server-ip:3000/graphql).
+Go to [http://your-server-ip:3000/graphql](http://your-server-ip:3000/graphql).
 
