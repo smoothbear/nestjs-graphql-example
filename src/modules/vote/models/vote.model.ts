@@ -11,8 +11,8 @@ export class Vote {
     @Field({ nullable: true })
     description?: string;
 
-    @Field()
-    votes: number;
+    @Field({ nullable: false })
+    votes: number = 0;
 
     @Field()
     creationDate: Date;
